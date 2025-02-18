@@ -1,4 +1,4 @@
-import ApprovedProductNameTab from "../support/POM/InventoryMgtModule.js/ApprovedProductNamesTab"
+import ApprovedProductNameTab from "../support/POM/InventoryMgtModule/ApprovedProductNamesTab"
 const approvedProductNameTab = new ApprovedProductNameTab
 
 import LoginPage from "../support/POM/LoginPage";
