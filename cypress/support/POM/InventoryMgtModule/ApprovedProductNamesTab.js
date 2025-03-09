@@ -6,23 +6,28 @@ export class ApprovedProductNameTab {
     AddProductNameButton() {
         return cy.contains('Add Product Name')
     }
-    ProductNameField() {
+    ProductNameField1() {
         return cy.get('#product-name-field-0')
     }
     AddAnotherButton() {
-        return cy.xpath("//button[normalize-space()='Add another']")
+        return cy.get ('#add-more-product')
     }
-    SecondProductNameField() {
+    ProductNameField2() {
         return cy.get('#product-name-field-1')
     }
     AddAnotherButton() {
-        return cy.xpath("//button[normalize-space()='Add another']")
+        return cy.get ('#add-more-product') 
     }
-    ThirdProductNameField() {
+    ProductNameField3() {
         return cy.get('#product-name-field-2')
+    } 
+    SubmitButton () {
+        return cy.get ('#submit-btn')
     }
-
-
-
+    BulkUploadButton () {
+        return cy.contains ('Bulk Upload')
+    }
+    AttachFileButton () {
+        return cy.contains ('Drag and drop files here or click to upload')
+    }
 }
-export default ApprovedProductNameTab

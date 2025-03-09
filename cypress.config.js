@@ -3,7 +3,7 @@ require('dotenv').config();
 
 module.exports = defineConfig({
   e2e: {
-    "baseUrl": "http://57.153.34.40:3000",
+    "baseUrl": "https://zenpaysitngapw.zenbyzenith.com:3001/",
     watchForFileChanges: false,
     setupNodeEvents(on, config) {
       

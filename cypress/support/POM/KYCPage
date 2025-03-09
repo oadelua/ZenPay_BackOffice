@@ -9,8 +9,5 @@ export class KYCPage {
     MerchantsupportSearchField () {
         return cy.get ("#merchant-support-search-field")
     }
-    MerchantDetails () {
-        return cy.contains ('John Mark')
-    }
 }
 export default KYCPage
